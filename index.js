@@ -10,7 +10,7 @@ module.exports = {
       app.import('bower_components/plupload/js/moxie.js');
       app.import('bower_components/plupload/js/plupload.dev.js');
     } else {
-      app.import('bower_components/plupload/js/plupload.full.min.js');
+      app.import('bower_components/plupload/js/plupload.dev.js');
     }
     app.import('bower_components/plupload/js/Moxie.swf', {
       destDir: 'assets'
